@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^danfillesthetics\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.danfillesthetics\.ca$
+RewriteRule ^/?$ "http\:\/\/danfillesthetics\.ca\/index\.html" [R=301,L]
+

@@ -1,0 +1,417 @@
+body {
+	font-family:  verdana;
+}
+
+#wrapper{
+	width: 960px;
+	border: 2px solid none;
+	margin: auto;
+	overflow: hidden;
+	background-color: rgba(204, 204, 204, 0.05);
+ 
+}
+
+
+#naslov {
+	text-align: center;
+	padding-top: 35px;
+	color:white;
+	margin-right: 80px;
+	font-size: 90px;
+	letter-spacing: 7px;
+	font-family: Charcoal; 
+	font-style: italic;
+
+	}
+
+#tel {
+	text-align: center;
+	float: center;
+	margin-bottom: 20px;
+	padding: 0;
+	font-size: 15px;
+	padding-top: 0px;
+	color: white;
+}
+
+#tel:before {
+	background-image: url(images/phone.png);
+	background-size: 20px;
+	width: 20px;
+	height: 20px;
+	content: '';
+	float: left;
+	display: block;
+}
+
+header {
+	background-color: rgb(179, 8, 34);
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	color: #9C27B0;
+
+}
+
+h2 {
+	color: #832CB9;
+
+}
+
+h3 {
+	color:#92099A;
+}
+
+nav ul, nav ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+header nav {
+	background-color:rgba(204, 204, 204, 0.78);
+	overflow: hidden;
+	clear: both;
+
+}
+
+header li {
+ 	float: left;
+
+ }
+
+ header a {
+ 	float: right;      
+ 	display: block;
+ 	padding: 5px;
+ 	width: 140px;
+ 	text-align: center;
+ 	color:#351442;
+ 	font-family: Verdana;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ }
+
+ header nav ul li a {
+ 	text-transform: uppercase;
+ 
+
+ }
+
+ header nav ul li ul li a{
+ 	text-transform: lowercase;
+ 
+
+ }
+
+  header nav ul li ul li a::first-letter {
+ 	text-transform: uppercase;
+ 
+
+ }
+
+ header a:hover{
+ 	background-color:rgba(217, 164, 218, 0.59);
+ }
+
+ #en {
+ 	color: white;
+ 	margin: 10px;
+ 	padding-bottom: 10px;
+ }
+
+ a:hover {
+ 	background-color:rgb(217, 164, 218);;
+ }
+
+
+ header nav ul li ul {
+ 	display: none;
+ 	width: 150px;
+ 	position: absolute;
+	background-color: #ccc;
+
+ }
+
+ header nav ul li ul li a {
+ 	background-color: rgba(217, 164, 218, 0.32);
+ 	color: #000;
+
+ }
+
+ header nav ul li:hover ul {
+ 	display: block;
+
+ }
+
+ header nav ul li ul {
+ 	margin-top:  28px;
+
+ }
+
+ header img {
+ 	float: left;
+ 	padding-top: 40px;
+    margin-left: 20px;
+
+}
+
+p {
+	text-align: justify;
+	padding-right:  5px;	
+	font-size: 14px;
+	margin-right: 5px;
+
+}
+
+.section main {
+padding-right: 10px;
+float: left;
+width: 900px;
+
+}
+
+ #div {
+ 	font-family: italic;
+ 	font-size: 20px;
+
+ }
+
+.vtorpasus {
+		width: 900px;
+		margin: 0px;
+		overflow: hidden;
+
+	}
+
+.vtorpasus img {
+		float: left;
+		display: block;
+
+
+		}
+
+.tretpasus main {
+		color: #000;
+		background-color: #fff;
+		width:900px;
+		float: left;
+		text-align:  center;
+		
+	}
+
+.trajnashminka{
+	overflow: hidden;
+	float: right;
+
+}
+
+.right {
+	float: right;
+}
+
+.prashanje {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: Verdana;
+	word-spacing: 7px;
+
+}
+
+#paket {
+	background-image: url(images/x.jpg);
+	position: relative;
+	width: 630px;
+    height: 440px;
+
+}
+
+
+#t1 {
+	position: absolute;
+	right: 15px;
+	top: 40px;
+	font-size: 20px;
+	color: #3131AB;
+
+}
+
+#t2 {
+	position: absolute;
+	right: 15px;
+	top: 140px;
+	font-size: 20px;
+	color:#0505EA;
+
+}
+
+#t3 {
+	position: absolute;
+	right: 15px;
+	top: 230px;
+	font-size: 20px;
+	color: #4343EF;
+
+}
+
+#t4 {
+	position: absolute;
+	right: 15px;
+	top: 330px;
+	font-size: 20px;
+	color: #7D7DD4;
+
+}
+
+#testimonials ul li, #testimonials ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#testimonials {
+	width: 960px;
+
+
+}
+ 
+ #testimonials ul  li {
+ 	float: left;
+ 	width: 214px;
+ 	margin-right: 26px;
+
+ }
+
+ #questions {
+ 	background-color: #D9A4DA;
+ 	/*
+
+ 	 font-size: 25px;
+ 	 word-spacing: 3px;
+ 	letter-spacing: 2px;
+*/
+
+ }
+
+ #questions p {
+ 	font-size: 19px;
+ 	height:50px;
+ 	text-align: center;
+ 	word-spacing: 3px;
+ 	padding-top: 30px;
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
+
+ .potpis {
+ 	font-weight: bold;
+ 	text-align: right;
+
+ } 
+
+ #testimonials li img {
+ 	width: 100%;
+ 	border-radius: 70%;
+ }
+
+ #testimonials h2 {
+ 	color: rgba(20, 23, 20, 0.75);
+ }
+
+.kontakt {
+		border-width: 2px;
+		border-style: dashed;
+		border-color: #ccc;
+		border-radius: 40px;
+		float: right;
+		width: 420px;
+
+}
+
+.kontakt p {
+	text-align: right;
+
+}
+
+#kontakt_tekst_levo {
+	width: 190px;
+	height: 200px;
+	float: left;
+	margin-left: 5px;
+
+}
+
+#kontakt_polinja {
+	float: left;
+	margin-left: 5px;
+	width: 200px;
+	height: 200px;
+
+}
+
+#kontakt_polinja p  {
+	padding: 0;
+	margin: 12px;
+}
+
+footer {
+	clear: both;
+	background-color: #EAC5C7;
+	overflow: hidden;
+	width: 960px;
+margin: 0 auto;
+}
+
+
+footer nav {
+	overflow: hidden;
+	clear: both;
+}
+
+footer  a {
+	text-decoration: none;
+	margin: 10px;
+	color: rgb(101, 4, 117);
+
+}
+
+ footer a:hover{
+ 	background-color: rgb(217, 164, 218);
+
+}
+
+footer .col {
+	float: left;
+	width: 300px;
+	padding: 10px;
+}
+
+footer > p {
+	clear: both;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+#levo_kontakt {
+	float: left;
+	width: 95px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 30px;
+}
+
+
+#desno_kontakt {
+	float: left;
+	width: 160px;
+	clear: right;
+	line-height: 30px;
+
+
+}

@@ -1,0 +1,26 @@
+a,p,td,th{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#666;
+}
+table {
+	border-collapse:collapse;
+}
+.black {
+	color:#000;
+}
+.white {
+	color:#FFF;
+}
+.red {
+	color:#F00;
+}
+.bluejeans {
+	color:#006;
+}
+.title {
+	font-size:18px;
+}
+
